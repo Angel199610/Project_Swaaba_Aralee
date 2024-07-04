@@ -1,5 +1,90 @@
 /* src/components/Navbar.css */
 nav {
+  background-color: #f2b32b;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li .navbar-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(239, 38, 38);
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(196, 25, 25);
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li .navbar-link:hover {
+  color: #0b0b0b; /* Change color on hover */
+  font-weight: bold; /* Make text bolder on hover */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #d77608;
+  color: #fff;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 40px; /* Adjust the height as needed */
+  margin-right: 10px;
+}
+
+.navbar-title {
+  font-size: 30px;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  margin: 0 10px;
+}
+
+.navbar-menu li .navbar-link {
+  color: #ede7e7c9;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* src/components/Navbar.css
+nav {
     background-color: #f2b32b;
     padding: 1rem;
   }
@@ -24,7 +109,7 @@ nav {
     text-decoration: solid;
     text-decoration: #d77608;
     /* text-shadow: #f2b32b; */
-  }
+  /* }
 
   .navbar {
     display: flex;
@@ -42,7 +127,7 @@ nav {
   
   .navbar-logo {
     height: 40px; /* Adjust the height as needed */
-    margin-right: 10px;
+    /* margin-right: 10px;
   }
   
   .navbar-title {
@@ -67,10 +152,10 @@ nav {
     color: #d00a0ac9;
     text-decoration: none;
     
-  }
+  } */ 
   
   /* .navbar-menu li a:hover {
     text-decoration: underline;
   }
    */
-  
+   
